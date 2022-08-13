@@ -6,7 +6,8 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            // TODO: Instantiate your objects and test your exercise solutions with print statements here.
+            Student student = new Student("Anna", 1, 1, 4d);
+            Console.WriteLine($"Student #{student.StudentId}, {student.Name}: {student.NumberOfCredits} credit(s), {student.Gpa} GPA");
         }
     }
 }
