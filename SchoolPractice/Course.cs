@@ -20,19 +20,6 @@ namespace SchoolPractice
             Students = new List<Student>();
         }
 
-        public void AddStudent(Student student)
-        {
-            Students.Add(student);
-        }
-
-        public void AddStudent(List<Student> students)
-        {
-            foreach (Student individual in students)
-            {
-                this.AddStudent(individual);
-            }
-        }
-
         public override bool Equals(object obj)
         {
             if (obj == this)
