@@ -9,7 +9,7 @@ namespace SchoolPractice
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Subject { get; set; }
-        public int YearsTeaching { get; set; } = 0;
+        public int YearsTeaching { get; set; };
 
         public Teacher(string firstName, string lastName, string subject, int yearsTeaching)
         {

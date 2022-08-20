@@ -40,6 +40,7 @@ namespace SchoolPractice
         public override string ToString()
         {
             return $"Course: {this.Name}" + Environment.NewLine +
+                   $"Instructor: {this.Instructor.LastName}, {this.Instructor.FirstName}" + Environment.NewLine +
                    $"Credit Hours: {this.CreditHours}" + Environment.NewLine +
                    $"Description: {this.Description}";
         }
