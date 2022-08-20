@@ -6,8 +6,8 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            Student student = new Student("Anna", 1, 1, 4d);
-            Console.WriteLine($"Student #{student.StudentId}, {student.Name}: {student.NumberOfCredits} credit(s), {student.Gpa} GPA");
+            Student student = new Student("Anna", 1, 4d);
+            Console.WriteLine(student.ToString());
         }
     }
 }
